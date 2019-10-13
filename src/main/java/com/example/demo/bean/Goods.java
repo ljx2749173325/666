@@ -8,7 +8,13 @@ public class Goods {
 	// 百分比
 	private double percent;
 
-	
+	public Goods(int gid, String gname, double price, double percent) {
+		super();
+		this.gid = gid;
+		this.gname = gname;
+		this.price = price;
+		this.percent = percent;
+	}
 
 	public Goods() {
 		super();
